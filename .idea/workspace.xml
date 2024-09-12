@@ -1,20 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="db25c86e-720a-42d4-9cb6-9de49ab0cee6" name="Changes" comment="" />
+    <list default="true" id="db25c86e-720a-42d4-9cb6-9de49ab0cee6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/application/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/api/endpoints/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/api/endpoints/v1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/api/endpoints/v1/customer_endpoints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/api/endpoints/v1/employee_endpoints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/api/endpoints/v1/game_endpoints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/api/endpoints/v1/order_endpoints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/api/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/core/enums/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/core/enums/notification_type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/core/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/core/models/customer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/core/models/employee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/core/models/entity_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/core/models/game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/core/models/order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/core/notifications/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/core/notifications/notification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/core/notifications/notifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infra/db/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infra/db/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infra/db/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infra/db/models/base_db_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infra/db/models/customer_db_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infra/db/models/employee_db_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infra/db/models/game_db_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infra/db/models/order_db_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infra/db/session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infra/repositories/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infra/repositories/customer_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infra/repositories/employee_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infra/repositories/game_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infra/repositories/order_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/infra/repositories/repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/management/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/management/services/customer_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/management/services/employee_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/management/services/game_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/management/services/order_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Helyon-Pacheco&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Helyon-Pacheco/dswProject.git&quot;,
+    &quot;accountId&quot;: &quot;e34a3d9e-307c-4c97-a640-d8da1ff20a48&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2kytW3twK5cwHNafg72YFlcOKYR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,10 +89,28 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Helyon/source/repos/4ucode-notification",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Helyon\source\repos\dswProject\application\api\endpoints" />
+      <recent name="C:\Users\Helyon\source\repos\dswProject\service\management\services" />
+      <recent name="C:\Users\Helyon\source\repos\dswProject\infrastructure\infra\db\models" />
+      <recent name="C:\Users\Helyon\source\repos\dswProject\infrastructure\infra\db" />
+      <recent name="C:\Users\Helyon\source\repos\dswProject\domain\core\enums" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Helyon\source\repos\dswProject\application\api\endpoints\v1" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,8 +127,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724267672485</updated>
-      <workItem from="1724267673919" duration="15000" />
+      <workItem from="1724267673919" duration="3592000" />
+      <workItem from="1724658553302" duration="3952000" />
+      <workItem from="1724689649172" duration="3927000" />
+      <workItem from="1724862624938" duration="3607000" />
+      <workItem from="1725039008663" duration="3109000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
